@@ -1,4 +1,16 @@
-# MİRAN Gameloop bağlantı testi
+# MİRAN indirmeleri
+
+[MİRAN CONTROL 32 bit — EXE ve kaynak kod ZIP](MiranControl32.zip?raw=true) ·
+[Yalnızca 32 bit EXE](MiranControl32.exe?raw=true)
+
+GameLoop için arayüzlü fare hareketi uygulaması: dikey/yatay ayarlar, aralık,
+hazır profiller, kayıt ve F8 ile acil durdurma. Python gerekmez. Verilen GameLoop
+klasörü varsayılan yoldur. RAM hedef taraması, aimbot veya ESP içermez.
+32 bit Windows GUI derlemesi ve mantık testleri doğrulandı; Windows/GameLoop
+üzerinde canlı çalışma testi bu ortamda yapılmadı.
+[Kullanım ve kaynak](../miran_control32/KULLANIM.md).
+
+## Önceki GameLoop bağlantı testleri
 
 [Güncel v4 ZIP paketini indir](miran_gameloop_baglanti_testi_v4.zip?raw=true).
 

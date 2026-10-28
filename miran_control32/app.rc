@@ -1,0 +1,30 @@
+#include <windows.h>
+
+1 RT_MANIFEST "app.manifest"
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE 0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "FileDescription", "Miran Control 32 bit\0"
+      VALUE "FileVersion", "1.0.0.0\0"
+      VALUE "InternalName", "MiranControl32\0"
+      VALUE "OriginalFilename", "MiranControl32.exe\0"
+      VALUE "ProductName", "Miran Control\0"
+      VALUE "ProductVersion", "1.0.0.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
